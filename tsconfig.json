@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": ["es6", "es2015", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -10,8 +10,7 @@
     "noImplicitAny": false,
     "declaration": true,
     "sourceMap": false,
-    "types": ["jasmine"],
-    "outDir": "build"
+    "outDir": "build",
   },
   "include": [
     "lib/*.ts",

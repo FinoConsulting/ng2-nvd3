@@ -11,3 +11,5 @@ typings
 
 npm-debug*.log
 package-lock.json
+
+yarn-error.log

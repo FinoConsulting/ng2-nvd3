@@ -13,12 +13,11 @@
   "homepage": "https://github.com/krispo/ng2-nvd3",
   "license": "MIT",
   "main": "build/index.js",
-  "typings": "build/index.d.ts",
   "scripts": {
     "pretest": "npm run build",
     "test": "karma start karma.conf.js",
     "build": "rm -rf build && ngc -p ./tsconfig.publish.json",
-    "prepublish": "typings install && npm run build"
+    "prepublish": "npm run build"
   },
   "author": "Konstantin Skipor",
   "repository": {
@@ -38,7 +37,6 @@
     "@angular/core": "^2.4 || ^4.0",
     "@angular/platform-browser": "^2.4 || ^4.0",
     "@angular/platform-browser-dynamic": "^2.4 || ^4.0",
-    "@types/jasmine": "^2.5.51",
     "es6-promise": "^4.0.5",
     "es6-shim": "^0.35.3",
     "jasmine": "^2.5.3",
@@ -52,7 +50,6 @@
     "karma-webpack": "^2.0.2",
     "ts-loader": "^2.0",
     "typescript": "2.3.4",
-    "typings": "^2.1.0",
     "webpack": "^1.14.0",
     "zone.js": "^0.7.7"
   }
