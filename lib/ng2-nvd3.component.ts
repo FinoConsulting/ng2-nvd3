@@ -1,7 +1,8 @@
 import { Component, OnChanges, OnDestroy, ElementRef, Input, SimpleChanges } from '@angular/core';
 
-declare const d3: any;
-declare const nv: any;
+
+import * as d3 from 'd3';
+import * as nv from 'nvd3';
 
 @Component({
   selector: 'nvd3',
